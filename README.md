@@ -8,7 +8,6 @@ Table of Contents
 4.	Configuration
 5.	Running the Workflow
 6.	Outputs
-7.	File Structure
 ________________________________________
 Workflow Overview
 This pipeline performs the following steps:
@@ -101,26 +100,7 @@ o	results/aligned/: Contains sorted BAM files (*.bam) and their indices (*.bam.b
 o	results/counts/: Contains gene count files for each sample (*_counts.txt).
 5.	Differential Expression Results:
 o	results/differential_expression_results.csv: Contains the results of the differential expression analysis, including log2 fold changes and adjusted p-values.
-________________________________________
-File Structure
-Below is an example directory structure:
-project-directory/
-├── Snakefile
-├── config.yaml
-├── data/
-│   └── raw/
-│       ├── sample1.fastq.gz
-│       ├── sample2.fastq.gz
-│       └── sample3.fastq.gz
-├── results/
-│   ├── fastqc/
-│   ├── trimmed/
-│   ├── aligned/
-│   ├── counts/
-│   └── differential_expression_results.csv
-├── scripts/
-│   ├── aggregate_counts.py
-│   └── differential_expression_analysis.py
+
 ________________________________________
 Notes
 •	Ensure all required tools and dependencies are installed and accessible in your PATH.
