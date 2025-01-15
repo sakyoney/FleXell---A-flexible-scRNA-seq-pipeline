@@ -29,11 +29,11 @@ Software Dependencies
 •	Snakemake (v7.0+)
 •	Python (v3.8+) 
 o	Required Python packages: 
-	pandas
-	rpy2
+pandas
+rpy2
 •	R (v4.0+) 
 o	Required R packages: 
-	DESeq2
+DESeq2
 •	Bioinformatics Tools: 
 o	FastQC
 o	Trim Galore!
