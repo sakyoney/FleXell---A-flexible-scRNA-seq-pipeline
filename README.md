@@ -29,7 +29,7 @@ Software Dependencies
 •	Snakemake (v7.0+)
 •	Python (v3.8+) 
 o	Required Python packages: 
-pandas
+pandas,
 rpy2
 •	R (v4.0+) 
 o	Required R packages: 
@@ -107,5 +107,5 @@ Notes
 •	If using a cluster, Snakemake can be executed with cluster configuration to distribute tasks across nodes.
 •	Adjust parameters in config.yaml and scripts as needed for your dataset and experiment design.
 ________________________________________
-For questions or issues, please contact the workflow maintainer or refer to the official documentation of the tools used.
+
 
